@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container jumbotron">
+       <!--<button class="btn btn-primary" data-toggle="collapse" data-target="#mydiv">click me</button>
+        <a href="#mydiv" data-toggle="collapse" class="btn btn-primary">click me</a>
+        <div id="mydiv" class="collapse">
+            it will be served from the server closest to them, which also leads to faster loading time.
+            Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.
+            Always include the HTML5 doctype at the beginning of the page
+        </div>-->
+    <div id="mymain">
+        <div class="card">
+            <div class="card-header">
+                <a href="#section1" data-toggle="collapse" class="card-link">lecture 1</a>
+            </div>
+            <div id="section1" class="collapse show" data-parent="#mymain">
+                <div class="card-body">
+                    it will be served from the server closest to them, which also leads to faster loading time.
+                    Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.
+                    Always include the HTML5 doctype at the beginning of the page
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a href="#section2" data-toggle="collapse" class="card-link">lecture 2</a>
+            </div>
+            <div id="section2" class="collapse" data-parent="#mymain">
+                <div class="card-body">
+                    it will be served from the server closest to them, which also leads to faster loading time.
+                    Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.
+                    Always include the HTML5 doctype at the beginning of the page
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a href="#section3" data-toggle="collapse" class="card-link">lecture 3</a>
+            </div>
+            <div id="section3" class="collapse" data-parent="#mymain">
+                <div class="card-body">
+                    it will be served from the server closest to them, which also leads to faster loading time.
+                    Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.
+                    Always include the HTML5 doctype at the beginning of the page
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a href="#section4" data-toggle="collapse" class="card-link">lecture 4</a>
+            </div>
+            <div id="section4" class="collapse" data-parent="#mymain">
+                <div class="card-body">
+                    it will be served from the server closest to them, which also leads to faster loading time.
+                    Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype.
+                    Always include the HTML5 doctype at the beginning of the page
+                </div>
+            </div>
+        </div>
+    </div>   
+    </div>
+</body>
+</html>
